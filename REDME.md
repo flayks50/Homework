@@ -1,0 +1,1 @@
+links to homeworks [my household tasks](https://flayks50.github.io/Homework/).
