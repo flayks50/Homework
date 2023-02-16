@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    
+    }
+
+body {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    color: #070707;
+    line-height: 25px;
+    }
+
+/*container*/
+
+.container {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}  
+
+/*header*/
+
+
+
+/*nav*/
+
+.nav{
+    text-align: center;
+}
+
+/*nav_link*/
+.nav_link {
+
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;     
+    padding: 40px;
+}
+
+/*main_baner*/
+.main_baner{
+    margin-bottom: 100px;
+}
+
+/*h1*/
+.h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 50px;
+}
+
+/*about_me*/
+
+.about_me {
+    text-align: center;
+}
+
+
