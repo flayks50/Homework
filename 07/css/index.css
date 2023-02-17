@@ -19,45 +19,143 @@ body {
 .container {
     width: 100%;
     max-width: 970px;
-    margin: 0 auto;
+    margin: 0 auto;         
 }  
-
 /*header*/
-
-
-
-/*nav*/
-
-.nav{
+.header .nav{
     text-align: center;
 }
 
 /*nav_link*/
 .nav_link {
-
     text-decoration: none;
     display: inline-block;
     vertical-align: top;     
-    padding: 40px;
+    padding: 27.5px 20px 27.5px 20px;
+    color: #828282;
 }
 
-/*main_baner*/
-.main_baner{
-    margin-bottom: 100px;
+.link {
+    border-top: solid 1px #828282;
+    width: 100%;
+    margin-bottom: 12px;
+        
 }
+
 
 /*h1*/
 .h1 {
     font-size: 48px;
     font-weight: 700;
-    line-height: 36px;
-    padding-bottom: 50px;
+    line-height: 63px;
+    margin-bottom: 50px;
 }
 
-/*about_me*/
 
-.about_me {
+
+
+/*abou*/
+
+.about {
     text-align: center;
+    padding: 100px 0 70px 0;
+    background-color:#E5E5E5;
+    
+}
+
+
+/*about.h2*/
+.about h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    margin-bottom: 50px;    
+}
+
+
+.about p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;    
+}
+
+/* skills */
+
+.skills {
+    padding: 100px 0 100px 0;
+    text-align: center;
+
+}
+/* heading */
+.skills .heading h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    margin-bottom: 20px;
+}
+
+.skills .heading p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 50px;
+
+}
+.skills .product-item {
+    float: left;
+    width: 25%;
+} 
+.float-conteiner::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.product-item img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 25px;
+
+}
+.product-item p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 60px;
+    min-height: 38px;
+    color: #828282;
+}
+.product-item .stars {
+    font-size: 0px;}
+
+.product-item .stars img{
+    width: 26px;
+    height: 26px;
+    margin: 0 5px;
+}
+
+.portfolio {
+    padding: 100px 0;
+    background-color: #E5E5E5;
+    text-align: center;
+}
+.portfolio h2 {
+    font-size: 34px;
+    line-height: 46px;
+    padding: 50px;
+}
+.portfolio .portfolio-item {
+    margin-bottom: 70px;
+}
+.portfolio .portfolio-item:last-child {
+    margin-bottom: 0px;
+}
+
+.portfolio .portfolio-item img {
+    margin-bottom: 50px;
+}
+.portfolio .portfolio-item a {
+    color: #070707;
+    display: block;
 }
 
 
