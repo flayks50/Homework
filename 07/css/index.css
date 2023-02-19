@@ -3,8 +3,8 @@
     padding: 0;
     border: 0;
     background: none;
-    
-    }
+
+}
 
 body {
     font-family: 'Open Sans';
@@ -12,17 +12,18 @@ body {
     font-weight: 400;
     color: #070707;
     line-height: 25px;
-    }
+}
 
 /*container*/
 
 .container {
     width: 100%;
     max-width: 970px;
-    margin: 0 auto;         
-}  
+    margin: 0 auto;
+}
+
 /*header*/
-.header .nav{
+.header .nav {
     text-align: center;
 }
 
@@ -30,7 +31,7 @@ body {
 .nav_link {
     text-decoration: none;
     display: inline-block;
-    vertical-align: top;     
+    vertical-align: top;
     padding: 27.5px 20px 27.5px 20px;
     color: #828282;
 }
@@ -39,7 +40,7 @@ body {
     border-top: solid 1px #828282;
     width: 100%;
     margin-bottom: 12px;
-        
+
 }
 
 
@@ -48,19 +49,21 @@ body {
     font-size: 48px;
     font-weight: 700;
     line-height: 63px;
-    margin-bottom: 50px;
+    margin-bottom: 47px;
 }
 
-
+section #baner img {
+    display: block;
+}
 
 
 /*abou*/
 
 .about {
     text-align: center;
-    padding: 100px 0 70px 0;
-    background-color:#E5E5E5;
-    
+    padding: 100px 0 66px 0;
+    background-color: #E5E5E5;
+
 }
 
 
@@ -68,42 +71,45 @@ body {
 .about h2 {
     font-weight: 700;
     font-size: 34px;
-    line-height: 46px;
-    margin-bottom: 50px;    
+    line-height: 32.3px;
+    margin-bottom: 50px;
 }
 
 
 .about p {
     margin-bottom: 30px;
     font-size: 18px;
-    line-height: 25px;    
+    line-height: 26px;
 }
 
 /* skills */
 
 .skills {
-    padding: 100px 0 100px 0;
+    padding: 100px 0 86px 0;
     text-align: center;
 
 }
+
 /* heading */
 .skills .heading h2 {
     font-weight: 700;
     font-size: 34px;
     line-height: 46px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
-.skills .heading p{
+.skills .heading p {
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 50px;
 
 }
+
 .skills .product-item {
     float: left;
     width: 25%;
-} 
+}
+
 .float-conteiner::after {
     content: "";
     clear: both;
@@ -113,9 +119,10 @@ body {
 .product-item img {
     max-width: 80px;
     max-height: 80px;
-    margin-bottom: 25px;
+    margin-bottom: 17px;
 
 }
+
 .product-item p {
     font-weight: 700;
     font-size: 14px;
@@ -124,38 +131,103 @@ body {
     min-height: 38px;
     color: #828282;
 }
-.product-item .stars {
-    font-size: 0px;}
 
-.product-item .stars img{
+.product-item .stars {
+    font-size: 0px;
+}
+
+.product-item .stars img {
     width: 26px;
     height: 26px;
     margin: 0 5px;
 }
 
 .portfolio {
-    padding: 100px 0;
+    padding: 98px 0;
     background-color: #E5E5E5;
     text-align: center;
 }
+
 .portfolio h2 {
     font-size: 34px;
     line-height: 46px;
-    padding: 50px;
+    margin-bottom: 46px;
 }
+
 .portfolio .portfolio-item {
     margin-bottom: 70px;
 }
+
 .portfolio .portfolio-item:last-child {
     margin-bottom: 0px;
 }
 
 .portfolio .portfolio-item img {
-    margin-bottom: 50px;
+    margin-bottom: 34px;
 }
+
 .portfolio .portfolio-item a {
     color: #070707;
     display: block;
 }
 
 
+
+footer {
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+footer .contacts h2 {
+    margin-bottom: 15px;
+    font-size: 34px;
+    line-height: 46px;
+}
+
+footer .contacts a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    color: #070707;
+    text-decoration: none;
+}
+
+
+footer .contacts {
+    margin-bottom: 56px;
+}
+
+
+
+footer button {
+    border-radius: 22px;
+    background-color: #070707;
+    width: 180px;
+    height: 44px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 29px;
+}
+
+footer .social-grup a {
+    width: 40;
+    height: 40;
+    padding: 0 25px;
+
+}
+
+footer .social-grup {
+    margin-bottom: 53px;
+}
+
+footer .social p,
+footer .social a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    text-decoration: none;
+}
