@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+.conteiner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat;
+
+}
+
+.logo, .logo_grup {
+    display: inline-block;
+}
+
+.img_logo {
+    width: 33.8px;
+    height: 31.94px;
+    padding-right: 10px;
+
+}
+
+.img_logo2 {
+    width: 154.23px;
+    height: 29.09px;
+
+}
+
+.flex_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: inline-block;
+    text-align: center;
+}
+
+a.menu {
+    display: inline-block;
+    padding: 26px 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+}
+
+.btns {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+
+button.btn_sign_in {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px 22.5px;
+    border: solid 1px;
+    border-radius: 4px;
+    border-color: #BCD0E5;
+    margin: 0 10px;
+    color: #2F281E;
+    background-color: #ffffff;
+}
+
+button.btn_sign_up {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px 22.5px;
+    border: solid 1px;
+    border-radius: 4px;
+    margin: 0 10px;
+    color: #ffffff;
+    background-color: #FF9900;
+}
+
+.lefl_sade{
+    box-sizing: border-box;
+    width: 500px;
+    height: 301px;
+}
+
+h1 {
+   
+    margin-bottom: 30px;
+   
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+}
+
+p {
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 33px;
+}
+
+button.btn_get {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px 43px;
+    border: solid 1px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #FF9900;
+}
+
+.side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 99px 0;
+}
