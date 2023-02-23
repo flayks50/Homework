@@ -47,7 +47,7 @@ body {
     text-align: center;
 }
 
-a.menu {
+a.nav_item {
     display: inline-block;
     padding: 26px 10px;
     text-decoration: none;
@@ -90,7 +90,12 @@ button.btn_sign_up {
     background-color: #FF9900;
 }
 
-.lefl_sade{
+.first_scereen {
+    padding: 70px 0;
+
+}
+
+.lefl_sade {
     box-sizing: border-box;
     width: 500px;
     height: 301px;
@@ -123,10 +128,7 @@ button.btn_get {
     color: #ffffff;
     background-color: #FF9900;
 }
-
 .side {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 99px 0;
-}
+    align-items: center;}
