@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    font-family: 'Lato';
+    color: #3C3C3C;
+}
+
+.header {
+    padding: 9px 0;
+}
+
+.header__nav_link {
+    color: #646464;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    display: inline-block;
+}
+
+.header__button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3C3C3C;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.who {
+    padding-top: 150px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.team__item_img {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.team__item_img-hover {
+    display: none;
+    background-color: #18B5DC;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.team__item_img:hover .team__item_img-hover {
+    display: block;
+}
+
+.team__item_img-hover .socials {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials .socials-item {
+    background-color: #5DCBE6;
+    width: 42px;
+    height: 42px;
+    margin: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.socials .socials-item:hover {
+    background-color: #fff;
+}
+
+.socials-item.tg {
+    background-image: url(./jpg/telegram-icon-w.png);
+}
+
+.socials-item.tg:hover {
+    background-image: url(./jpg/telegram-icon.png);
+}
+
+.socials-item.fb {
+    background-image: url(./jpg/facebook-icon-w.png);
+}
+
+.socials-item.fb:hover {
+    background-image: url(./jpg/facebook-icon.png);
+}
+
+.socials-item.in {
+    background-image: url(./jpg/instagram-icon-w.png);
+}
+
+.socials-item.in:hover {
+    background-image: url(./jpg/instagram-icon.png);
+}
+
+.team__item-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282528;
+}
+
+.team__item-info {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646464;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer_logo {
+    margin-bottom: 28px;
+}
+
+.footer__nav_link {
+    color: #646464;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 15px;
+}
+
+.team {
+    margin-bottom: 150px;
+}
+
+.footer_socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer_socials .footer__socials_item {
+    background-color: #fff;
+    width: 42px;
+    height: 42px;
+    margin: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #18B5DC;
+}
+
+.footer__socials_item:hover {
+    background-color: #18B5DC;
+}
+
+.footer__socials_item.tw {
+    background-image: url(./jpg/twitter.png);
+}
+
+.footer__socials_item.fb {
+    background-image: url(./jpg/facebook-icon.png);
+}
+
+.footer__socials_item.in {
+    background-image: url(./jpg/instagram-icon.png);
+}
+
+.footer__socials_item.li {
+    background-image: url(./jpg/linkedinicon.png);
+}
+
+.footer__socials_item.tl {
+    background-image: url(./jpg/telegram-icon.png);
+}
+
+
+
+.footer__socials_item.tw:hover {
+    background-image: url(./jpg/twitter-w.png);
+}
+
+.footer__socials_item.fb:hover {
+    background-image: url(./jpg/facebook-icon-w.png);
+}
+
+.footer__socials_item.in:hover {
+    background-image: url(./jpg/instagram-icon-w.png);
+}
+
+.footer__socials_item.li:hover {
+    background-image: url(./jpg/linkedinicon-w.png);
+}
+
+.footer__socials_item.tl:hover {
+    background-image: url(./jpg/telegram-icon-w.png);
+}
+
+
+
+.footer__nav, .footer_socials {
+    margin-bottom: 28px;
+}  
